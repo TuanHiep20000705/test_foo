@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
           create: (context) => CounterBloc(),
           child: CounterPage(),
       ),
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
     );
   }
 }
